@@ -13,7 +13,9 @@
         h1 { text-align: center; }
         p { font-size: 18px; }
     </style>
-
+<?php>
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        
     <div class="container">
         <h1>Respostas Enviadas</h1>
         <ul>
@@ -26,5 +28,7 @@
         <br>
         <a href="form.html">Voltar ao formulário</a>
     </div>
+}
+<?>
 </body>
 </html>
