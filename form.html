@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Formulário</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <style>
-    body {background-image: url('fundo2.jpg');}
- </style>
- <div class="form-container">
- <h1>Formulário de Contato</h1>
- <form action="response.php" method="post">
- <label for="name">Nome:</label>
- <input type="text" id="name" name="name" required>
- <label for="email">Email:</label>
- <input type="email" id="email" name="email" required>
- <label for="telefone">Telefone:</label>
- <input type="tel" id="telefone" name="telefone" required>
- <label for="data">Data:</label>
- <input type="date" id="data" name="data" required>
- <label for="message">Mensagem:</label>
- <textarea id="message" name="message" rows="4" required></textarea>
- <button type="submit"><b>Enviar</b></button>
- </form>
- </div>
+    <style>
+        body { background-image: url('fundo2.jpg'); }
+    </style>
+
+    <div class="form-container">
+        <h1>Formulário de Contato</h1>
+        <form action="respostas.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit"><b>Enviar</b></button>
+        </form>
+    </div>
 </body>
 </html>
+
