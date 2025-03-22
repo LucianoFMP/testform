@@ -24,7 +24,7 @@
             <li><b>Mensagem:</b> <?php echo nl2br(htmlspecialchars($_POST["message"])); ?></li>
         </ul>
         <br>
-        <a href="index.html">Voltar ao formulário</a>
+        <a href="form.html">Voltar ao formulário</a>
     </div>
 </body>
 </html>
